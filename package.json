@@ -1,0 +1,21 @@
+{
+  "name": "color-code",
+  "displayName": "Color-Code",
+  "description": "Applies color to your code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "color-code",
+        "uiTheme": "vs-dark",
+        "path": "./themes/color-code-color-theme.json"
+      }
+    ]
+  }
+}
